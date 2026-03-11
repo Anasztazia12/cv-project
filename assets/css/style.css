@@ -72,6 +72,9 @@ h3 {
         4px 0 0 rgb(133, 14, 14),
         0 10px 20px #cc251f;
 }
+.cv-layout{
+	max-width: 900px 
+}
 .cv-layout ul {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
@@ -90,10 +93,6 @@ h3 {
     margin-bottom: 1rem;
 }
 
-.profile-left {
-    flex: 0 0 240px;
-}
-
 .profile-image {
     width: 100%;
     border: 1px solid #334155;
@@ -102,7 +101,15 @@ h3 {
 .profile-right {
     flex: 1;
 }
-
+.info {
+	background: rgba(255, 255, 255, 0.65);
+	padding: 0.8rem;
+	border: 1px solid #334155;
+	border-radius: 12px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: larger;
+	text-align: justify;
+}
 .education-section {
     margin-bottom: 1rem;
 }
@@ -126,11 +133,7 @@ h3 {
 @media (max-width: 700px) {
     .profile-layout {
         flex-direction: column;
-    }
-
-    .profile-left {
-        flex: 1;
-        max-width: 280px;
+		max-width: 100%; padding: 0.5rem;
     }
 }
 
