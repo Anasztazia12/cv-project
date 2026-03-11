@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -8,9 +10,16 @@ html {
 
 body {
     margin: 0;
-    font-family: "Lucida Console", "Courier New", monospace;
 }
-
+h1 {
+	font-family: 'bitcunt prop double ink', cursive;
+}
+h5 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 1.5rem;
+	color: #cc251f;
+	margin: 0;
+}
 .cv-layout {
     max-width: 900px;
     margin: 0 auto;
@@ -72,9 +81,7 @@ h3 {
         4px 0 0 rgb(236, 233, 233),
         0 10px 20px #cc251f;
 }
-.cv-layout{
-	max-width: 900px 
-}
+
 .cv-layout ul {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
@@ -121,6 +128,7 @@ h3 {
 }
 .education-section {
     margin-bottom: 1rem;
+	font-family: ;
 }
 
 .edu-list {
@@ -159,9 +167,6 @@ h3 {
     background: rgba(255, 255, 255, 0.65);
 }
 
-.experience-item h3 {
-    margin-top: 0;
-}
 @media (max-width: 700px) {
     .profile-layout {
         flex-direction: column;
@@ -203,14 +208,4 @@ footer {
 #contact a {
     color: #111111;
     font-weight: 700;
-}
-.container {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 1rem;
-}
-.flexbox {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 1rem;
 }
