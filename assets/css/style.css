@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.cv-layout {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.top-title {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+}
+
+.top-title h1, .top-title h2 {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.site-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.8rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.45rem 1.1rem;
+    border: 1px solid #22c55e;
+    border-radius: 999px;
+    background: #020617;
+    color: #bbf7d0;
+    font-family: inherit;
+    font-size: 0.9rem;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.btn:hover {
+    background: rgba(29, 92, 53, 0.2);
+}
+h1 {
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+    box-shadow:
+        4px 0 0 #888585,
+        0 10px 20px #cc251f;
+}
+
+h2 {
+    color: #141f18;
+    margin-top: 0;
+    display: block;
+}
+h3 {
+	display: inline-block;
+    box-shadow: 
+        4px 0 0 rgb(133, 14, 14),
+        0 10px 20px #cc251f;
+}
+.cv-layout ul {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+    padding-left: 1.2rem;
+}
+
+.cv-layout li,
+.cv-layout p {
+    line-height: 1.5;
+}
+
+.profile-layout {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.profile-left {
+    flex: 0 0 240px;
+}
+
+.profile-image {
+    width: 100%;
+    border: 1px solid #334155;
+}
+
+.profile-right {
+    flex: 1;
+}
+
+.education-section {
+    margin-bottom: 1rem;
+}
+
+.experience-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.experience-item {
+    flex: 1 1 320px;
+    border: 1px solid #334155;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.65);
+}
+
+.experience-item h3 {
+    margin-top: 0;
+}
+@media (max-width: 700px) {
+    .profile-layout {
+        flex-direction: column;
+    }
+
+    .profile-left {
+        flex: 1;
+        max-width: 280px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
