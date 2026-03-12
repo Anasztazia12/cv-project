@@ -12,10 +12,10 @@ html {
 body {
     margin: 0;
 	background:
-        radial-gradient(circle at 80% 0%, #0c0b0b 0%, transparent 35%),
+        radial-gradient(circle at 80% 0%, #80637e 0%, transparent 35%),
         radial-gradient(circle at 40% 20%, #790d85 0%, transparent 32%),
         #e4bff7f6;
-    color: #000000;
+    color: #796666;
 }
 /* Header */
 .page-shell {
@@ -58,8 +58,8 @@ h2 {
     width: 100%;
 }
 .circle {
-	width: 120px;
-	height:120px;
+	width: 140px;
+	height:140px;
 	border-radius: 50%;
 	overflow: hidden;
     margin: -4rem 0 1rem 1rem;
@@ -70,12 +70,14 @@ h2 {
 .quote {
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(90,17,52,0.2);
+    border-bottom: 1px solid rgba(117, 54, 82, 0.2);
+}
+ .quote h5 {
     font-family: 'Pinyon Script', cursive;
-	font-size: 1.6rem;
-    color: #5a1134;
+	font-size: 2rem;
+    color: rgb(41, 13, 25);
 	text-align: center;
-	margin: 0;
+     margin: 0;
 }
 .top-title h5:last-of-type {
     margin-bottom: 2rem;
