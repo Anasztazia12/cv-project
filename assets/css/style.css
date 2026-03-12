@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -10,14 +11,29 @@ html {
 
 body {
     margin: 0;
+	background:
+        radial-gradient(circle at 80% 0%, #f3e2eb 0%, transparent 35%),
+        radial-gradient(circle at 40% 20%, #4a2b4d 0%, transparent 32%),
+        #0f070bf6;
+    color: #948596;
+}
+
+.page-shell {
+    max-width: 980px;
+    margin: 1.2rem auto;
+    padding: 0.6rem;
+    border: 1px solid #dec5d4;
+    border-radius: 12px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.8) 100%);
 }
 h1 {
 	font-family: 'bitcunt prop double ink', cursive;
 }
 h5 {
 	font-family: 'Pinyon Script', cursive;
-	font-size: 1.5rem;
-	color: #cc251f;
+	font-size: 2rem;
+    color: #8f4369;
+	text-align: center;
 	margin: 0;
 }
 .cv-layout {
@@ -30,6 +46,8 @@ h5 {
     text-align: center;
     margin-bottom: 1rem;
     padding: 0.8rem;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(252, 240, 247, 0.94) 0%, rgba(236, 226, 252, 0.9) 100%);
 }
 
 .top-title h1, .top-title h2 {
@@ -48,10 +66,10 @@ h5 {
 .btn {
     display: inline-block;
     padding: 0.45rem 1.1rem;
-    border: 1px solid #22c55e;
+    border: 1px solid #d6b9c9;
     border-radius: 999px;
-    background: #020617;
-    color: #bbf7d0;
+    background: linear-gradient(135deg, #fff7fb 0%, #f8eef8 100%);
+    color: #52374d;
     font-family: inherit;
     font-size: 0.9rem;
     text-decoration: none;
@@ -59,27 +77,27 @@ h5 {
 }
 
 .btn:hover {
-    background: rgba(29, 92, 53, 0.2);
+    background: linear-gradient(135deg, #fbe9f2 0%, #efe6fb 100%);
 }
 h1 {
     display: inline-block;
     width: fit-content;
     margin: 0 auto;
     box-shadow:
-        4px 0 0 #888585,
-        0 10px 20px #cc251f;
+        4px 0 0 #c9b4c1,
+        0 10px 20px rgba(176, 107, 137, 0.45);
 }
 
 h2 {
-    color: #141f18;
+    color: #594c56;
     margin-top: 0;
     display: block;
 }
 h3 {
 	display: inline-block;
     box-shadow: 
-        4px 0 0 rgb(236, 233, 233),
-        0 10px 20px #cc251f;
+        4px 0 0 #eee4ea,
+        0 10px 20px rgba(176, 107, 137, 0.4);
 }
 
 .cv-layout ul {
@@ -109,7 +127,7 @@ h3 {
 	border-radius: 50%;
 	overflow: hidden;
     margin: 0;
-	border: 2px solid #cc251f;
+    border: 2px solid #b96f92;
 }
 .profile-left {
     flex: 0 0 180px;
@@ -118,9 +136,9 @@ h3 {
     flex: 1;
 }
 .info {
-	background: rgba(255, 255, 255, 0.65);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 	padding: 0.8rem;
-	border: 1px solid #334155;
+    border: 1px solid #dec5d4;
 	border-radius: 12px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
@@ -128,7 +146,6 @@ h3 {
 }
 .education-section {
     margin-bottom: 1rem;
-	font-family: ;
 }
 
 .edu-list {
@@ -141,13 +158,13 @@ h3 {
     display: flex;
     gap: 0.8rem;
     padding: 0.55rem 0;
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid #dec5d4;
 }
 
 .edu-year {
     min-width: 150px;
     font-weight: 700;
-    color: #141f18;
+    color: #8f4369;
 }
 
 .edu-text {
@@ -162,9 +179,14 @@ h3 {
 
 .experience-item {
     flex: 1 1 320px;
-    border: 1px solid #334155;
+    border: 1px solid #dec5d4;
     padding: 0.8rem;
-    background: rgba(255, 255, 255, 0.65);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(239, 244, 255, 0.9) 100%);
+}
+
+	.experience-item:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #ffffff 0%, rgba(237, 231, 255, 0.95) 100%);
 }
 
 @media (max-width: 700px) {
@@ -185,16 +207,17 @@ h3 {
 #contact {
     max-width: 900px;
     margin: 1rem auto;
-    background: rgba(245, 37, 37, 0.78);
-    color: #111111;
+    background: linear-gradient(135deg, rgba(255, 236, 245, 0.94) 0%, rgba(236, 232, 255, 0.94) 100%);
+    color: #2f2730;
     padding: 1rem 1.2rem;
     text-align: left;
     border-radius: 10px;
+    border: 1px solid #dec5d4;
 }
 h4 {
     margin: 0 0 0.5rem 0;
     font-size: 1.2rem;
-    color: #141f18;
+    color: #8f4369;
     text-align: left;
 }
 footer {
@@ -206,6 +229,6 @@ footer {
 }
 
 #contact a {
-    color: #111111;
+    color: #7b4761;
     font-weight: 700;
 }
