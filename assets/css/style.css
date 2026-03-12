@@ -17,10 +17,10 @@ body {
         #0f070bf6;
     color: #948596;
 }
-
+/* Header */
 .page-shell {
-    max-width: 980px;
-    margin: 1.4rem auto;
+    max-width: 900px;
+    margin: 1rem auto;
     padding: 0.6rem;
     border: 1px solid #dec5d4;
     border-radius: 12px;
@@ -29,34 +29,22 @@ body {
 h1 {
 	font-family: 'bitcunt prop double ink', cursive; 
 	color: rgb(26, 22, 25);
-    display: inline-block; 
-    width: fit-content; 
     margin: 0 auto;
-}
-h1{
-    box-shadow: 
-        2px 0 0 rgb(187, 162, 183),
-        0 14px 18px rgb(233, 206, 236);
-} 
 
+} 
 h2 {
     color: rgb(8, 8, 8);
     margin-top: 0;
     display: block;
 	padding: 0.6rem 0.8rem;
 }
-
-.cv-layout {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0.5rem;
-}
-
-	.top-title {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    padding: 0.5rem 1rem; 
+.top-title {
+	max-width: 880px;
+    margin: 1rem auto;
+	border-radius: 12px;
+    display: block;
+    text-align: center; 
+    padding: 0.5rem 0.5rem; 
     gap: 1rem; 
 	background: linear-gradient(135deg, rgba(247, 242, 247, 0.94) 0%, rgba(61, 45, 61, 0.9) 100%);
 }
@@ -65,13 +53,24 @@ h2 {
     margin: 0;
     line-height: 1;
 }
+.profile-image {
+    width: 100%;
+}
+.circle {
+	width: 120px;
+	height:120px;
+	border-radius: 50%;
+	overflow: hidden;
+    margin: 6;
+    border: 2px solid #854982;
+}
 
+/* header - button */
 .site-nav {
     display: flex;
     gap: 0.5rem;
 	justify-content: center;
 	align-self: self-end;
-    gap: 0.5rem;
     margin-top: 0.8rem;
 }
 
@@ -91,16 +90,24 @@ h2 {
 
 .btn:hover {
     background: rgb(240, 240, 245);
+	
 }
 
-
-h3 {
-	display: inline-block;
-    box-shadow: 
-        4px 0 0 #eee4ea,
-        0 10px 20px rgba(176, 107, 137, 0.4);
+/* .cv-layout */
+.subtitle h3 {
+	font-family:  'Bitcount Prop, Double Ink';
+	font-size: 1.8rem;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin: 0.5rem 0;
 }
 
+.cv-layout {
+	color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
 .cv-layout ul {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
@@ -111,40 +118,31 @@ h3 {
 .cv-layout p {
     line-height: 1.5;
 }
-
 .profile-layout {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    margin-bottom: 1rem;
+	display: flex;
+	gap: 1.2rem;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
-.profile-image {
-    width: 100%;
-}
-.circle {
-	width: 140px;
-	height: 140px;
-	border-radius: 50%;
-	overflow: hidden;
-    margin: 20;
-    border: 2px solid #854982;
-}
 h5 {
 	font-family: 'Pinyon Script', cursive;
 	font-size: 2rem;
-    color: #8f4369;
+    color: #b34a7c;
 	text-align: center;
 	margin: 0;
 }
+
 .info {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
-	padding: 0.8rem;
-    border: 1px solid #dec5d4;
-	border-radius: 12px;
+	max-width: 900px;
+    margin: 1rem auto;
+	 padding: 1rem 1.2rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
 	text-align: justify;
+	border: 3px solid #833965;
+	border-radius: 12px;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 }
 .education-section {
     margin-bottom: 1rem;
@@ -164,13 +162,9 @@ h5 {
 }
 
 .edu-item:hover {
-    background: rgb(194, 170, 190);
+    background: rgb(194, 170, 190);		
     border-radius: 6px;
-
-
-}
-
-
+} 
 .edu-year {
     min-width: 150px;
     font-weight: 700;
@@ -194,16 +188,10 @@ h5 {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(239, 244, 255, 0.9) 100%);
 }
 
-	.experience-item:hover {
+  .experience-item:hover {
     transform: translateY(-2px);
     background: linear-gradient(135deg, #ffffff 0%, rgba(237, 231, 255, 0.95) 100%);
 }
-
-@media (max-width: 700px) {
-    .profile-layout {
-        flex-direction: column;
-		max-width: 100%; padding: 0.5rem;
-    }
 
     .edu-item {
         flex-direction: column;
@@ -213,16 +201,18 @@ h5 {
     .edu-year {
         min-width: 0;
     }
-}
+
 #contact {
-    max-width: 900px;
+	color: black;
+	max-width: 900px;
     margin: 1rem auto;
-    background: linear-gradient(135deg, rgba(255, 236, 245, 0.94) 0%, rgba(236, 232, 255, 0.94) 100%);
-    color: #2f2730;
-    padding: 1rem 1.2rem;
-    text-align: left;
-    border-radius: 10px;
-    border: 1px solid #dec5d4;
+	 padding: 1rem 1.2rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: larger;
+	text-align: justify;
+	border: 3px solid #833965;
+	border-radius: 12px;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 }
 h4 {
     margin: 0 0 0.5rem 0;
@@ -239,6 +229,6 @@ footer {
 }
 
 #contact a {
-    color: #7b4761;
+    color: #330431;
     font-weight: 700;
 }
