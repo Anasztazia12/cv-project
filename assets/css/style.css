@@ -20,79 +20,80 @@ body {
 
 .page-shell {
     max-width: 980px;
-    margin: 1.2rem auto;
+    margin: 1.4rem auto;
     padding: 0.6rem;
     border: 1px solid #dec5d4;
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.8) 100%);
 }
 h1 {
-	font-family: 'bitcunt prop double ink', cursive;
+	font-family: 'bitcunt prop double ink', cursive; 
+	color: rgb(26, 22, 25);
+    display: inline-block; 
+    width: fit-content; 
+    margin: 0 auto;
 }
-h5 {
-	font-family: 'Pinyon Script', cursive;
-	font-size: 2rem;
-    color: #8f4369;
-	text-align: center;
-	margin: 0;
+h1{
+    box-shadow: 
+        2px 0 0 rgb(187, 162, 183),
+        0 14px 18px rgb(233, 206, 236);
+} 
+
+h2 {
+    color: rgb(8, 8, 8);
+    margin-top: 0;
+    display: block;
+	padding: 0.6rem 0.8rem;
 }
+
 .cv-layout {
     max-width: 900px;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
-.top-title {
-    text-align: center;
-    margin-bottom: 1rem;
-    padding: 0.8rem;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(252, 240, 247, 0.94) 0%, rgba(236, 226, 252, 0.9) 100%);
+	.top-title {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0.5rem 1rem; 
+    gap: 1rem; 
+	background: linear-gradient(135deg, rgba(247, 242, 247, 0.94) 0%, rgba(61, 45, 61, 0.9) 100%);
 }
 
 .top-title h1, .top-title h2 {
     margin: 0;
-    line-height: 1.4;
+    line-height: 1;
 }
 
 .site-nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    gap: 0.5rem;
+	justify-content: center;
+	align-self: self-end;
     gap: 0.5rem;
     margin-top: 0.8rem;
 }
 
 .btn {
     display: inline-block;
-    padding: 0.45rem 1.1rem;
-    border: 1px solid #d6b9c9;
+    padding: 0.45rem 1.4rem;
+    border: 1.8px solid #080808;
     border-radius: 999px;
-    background: linear-gradient(135deg, #fff7fb 0%, #f8eef8 100%);
-    color: #52374d;
+    background: linear-gradient(135deg, #f1cddf 0%, #6d226d 100%);
+    color: #0c0b0c;
     font-family: inherit;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+	font-weight: 700;
     text-decoration: none;
     letter-spacing: 0.03em;
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #fbe9f2 0%, #efe6fb 100%);
-}
-h1 {
-    display: inline-block;
-    width: fit-content;
-    margin: 0 auto;
-    box-shadow:
-        4px 0 0 #c9b4c1,
-        0 10px 20px rgba(176, 107, 137, 0.45);
+    background: rgb(240, 240, 245);
 }
 
-h2 {
-    color: #594c56;
-    margin-top: 0;
-    display: block;
-}
+
 h3 {
 	display: inline-block;
     box-shadow: 
@@ -113,7 +114,7 @@ h3 {
 
 .profile-layout {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     align-items: flex-start;
     margin-bottom: 1rem;
 }
@@ -122,18 +123,19 @@ h3 {
     width: 100%;
 }
 .circle {
-	width: 180px;
-	height: 180px;
+	width: 140px;
+	height: 140px;
 	border-radius: 50%;
 	overflow: hidden;
-    margin: 0;
-    border: 2px solid #b96f92;
+    margin: 20;
+    border: 2px solid #854982;
 }
-.profile-left {
-    flex: 0 0 180px;
-}
-.profile-right {
-    flex: 1;
+h5 {
+	font-family: 'Pinyon Script', cursive;
+	font-size: 2rem;
+    color: #8f4369;
+	text-align: center;
+	margin: 0;
 }
 .info {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
@@ -160,6 +162,14 @@ h3 {
     padding: 0.55rem 0;
     border-bottom: 1px solid #dec5d4;
 }
+
+.edu-item:hover {
+    background: rgb(194, 170, 190);
+    border-radius: 6px;
+
+
+}
+
 
 .edu-year {
     min-width: 150px;
