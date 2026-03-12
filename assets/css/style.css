@@ -124,7 +124,7 @@ h2 {
 	align-items: center;
 	flex-wrap: wrap;
 }
-
+/* Quote */
 h5 {
 	font-family: 'Pinyon Script', cursive;
 	font-size: 2rem;
@@ -132,7 +132,7 @@ h5 {
 	text-align: center;
 	margin: 0;
 }
-
+/* About me */
 .info {
 	max-width: 900px;
     margin: 1rem auto;
@@ -144,6 +144,8 @@ h5 {
 	border-radius: 12px;
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 }
+/* Education */
+
 .education-section {
     margin-bottom: 1rem;
 }
@@ -169,11 +171,18 @@ h5 {
     min-width: 150px;
     font-weight: 700;
     color: #8f4369;
+    min-width: 0;
 }
 
 .edu-text {
     flex: 1;
 }
+ .edu-item {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+/* Experience */
 
 .experience-grid {
     display: flex;
@@ -193,15 +202,7 @@ h5 {
     background: linear-gradient(135deg, #ffffff 0%, rgba(237, 231, 255, 0.95) 100%);
 }
 
-    .edu-item {
-        flex-direction: column;
-        gap: 0.25rem;
-    }
-
-    .edu-year {
-        min-width: 0;
-    }
-
+/* Footer - Contact */
 #contact {
 	color: black;
 	max-width: 900px;
