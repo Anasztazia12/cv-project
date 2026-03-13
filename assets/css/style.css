@@ -17,6 +17,20 @@ body {
         #e4bff7f6;
     color: #796666;
 }
+/* Quote */
+.quote {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(117, 54, 82, 0.2);
+}
+ .quote h5 {
+    font-family: 'Pinyon Script', cursive;
+	font-size: 2rem;
+    color: rgb(41, 13, 25);
+	text-align: center;
+     margin: 0;
+}
+
 /* Header */
 .page-shell {
     max-width: 800px;
@@ -66,19 +80,6 @@ h2 {
     border: 2px solid #854982;
 }
 
-/* Quote */
-.quote {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid rgba(117, 54, 82, 0.2);
-}
- .quote h5 {
-    font-family: 'Pinyon Script', cursive;
-	font-size: 2rem;
-    color: rgb(41, 13, 25);
-	text-align: center;
-     margin: 0;
-}
 .top-title h5:last-of-type {
     margin-bottom: 2rem;
 }
@@ -142,14 +143,7 @@ h2 {
 	align-items: center;
 	flex-wrap: wrap;
 }
-/* Quote */
-h5 {
-	font-family: 'Pinyon Script', cursive;
-	font-size: 2.2rem;
-    color: #5a1134;
-	text-align: center;
-	margin: 0;
-}
+
 /* About me */
 .info {
 	max-width: 760px;
