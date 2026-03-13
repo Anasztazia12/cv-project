@@ -109,6 +109,7 @@ h2 {
 
 .btn:hover {
     background: rgb(240, 240, 245);
+    transform: translateY(-4px);
 	
 }
 
@@ -230,8 +231,9 @@ h3 {
 }
 
   .experience-item:hover {
-    transform: translateY(-2px);
-    background: linear-gradient(135deg, #ffffff 0%, rgba(237, 231, 255, 0.95) 100%);
+    transform: translateY(-8px);
+    background: linear-gradient(135deg, #a395ad 0%, #e4c8f7 100%);
+    border-color: #833965;
 }
 
 /* Footer - Contact */
