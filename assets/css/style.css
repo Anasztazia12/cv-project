@@ -41,7 +41,7 @@ body {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.8) 100%);
 }
 h1 {
-	font-family: 'bitcunt prop double ink', cursive; 
+	font-family: 'Bitcount Prop Double Ink', cursive;
 	color: rgb(26, 22, 25);
     margin: 0;
 
@@ -160,8 +160,8 @@ h2 {
 h3 {
     color: rgb(59, 13, 57);
     text-align: left;
-    margin: 4rem 12;
-    font-family: 'Bitcount Prop', 'Double Ink';
+    margin: 1rem 0;
+    font-family: 'Bitcount Prop Double Ink', cursive;
     font-weight: 600;
     padding-bottom: 0.6rem;
 }
@@ -210,8 +210,7 @@ h3 {
 
 .edu-text {
     flex: 1;
-    font: 600, bold;
-
+    font-weight: 600;
 }
 
 /* Experience */
@@ -281,7 +280,7 @@ footer {
         flex-direction: column;
         gap: 12px;
     }
-    nav button{
+    nav a{
         width: 100%;
         font-size: 1.1rem;
         padding: 14px;
