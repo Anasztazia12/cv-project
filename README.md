@@ -37,3 +37,8 @@ The footer appears on all pages and contains:
 
 ## Purpose
 This project is a simple, custom CV website that can be expanded later with more styling, animations, or JavaScript functionality.
+
+## Testing
+The website was tested on both desktop and mobile screen sizes.
+Mobile testing was performed using the browser’s built‑in Developer Tools (Responsive Design Mode) to ensure proper layout, readability, and navigation on smaller devices.
+In addition, the site was manually tested on my own smartphone to verify real‑device performance and responsiveness.
