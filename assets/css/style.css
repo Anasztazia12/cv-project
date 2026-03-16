@@ -19,6 +19,7 @@ body {
 .quote {
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
+     flex: 1;
 }
  .quote h5 {
     font-family: 'Pinyon Script', cursive;
@@ -288,4 +289,9 @@ footer {
         font-size: 1.1rem;
         padding: 14px;
     }
+    .quote-row {
+    flex-direction: column;
+    text-align: center;
+}
+
 }
