@@ -281,7 +281,7 @@ footer {
 @media (max-width: 600px) { 
     nav{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 12px;
     }
     nav a{
@@ -290,8 +290,8 @@ footer {
         padding: 14px;
     }
     .quote-row {
-    flex-direction: column;
-    text-align: center;
-}
-
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
 }
