@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -11,8 +9,7 @@ html {
 
 body {
     margin: 0;
-    background: linear-gradient(180deg, #cc82ecc9 0%, #ceb7dde0 100%);
-  
+    background: linear-gradient(180deg, #f7f4f4c9 0%, #4b4a4dcc 100%);
 }
 /* Quote */
 .quote {
@@ -23,7 +20,7 @@ body {
  .quote h5 {
     font-family: 'Pinyon Script', cursive;
 	font-size: 2rem;
-    color: rgb(41, 13, 25);
+    color: rgb(15, 6, 10);
 	text-align: center;
      margin: 0;
 }
@@ -39,19 +36,19 @@ body {
     max-width: 800px;
     margin: 0.2rem auto;
     padding: 0.3rem;
-    border: 1px solid #703a5a;
+    border: 1px solid #330431;
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.8) 100%);
 }
 
 h1 {
-	font-family: 'Pinyon Script', cursive;
-	color: rgb(26, 22, 25);
+	font-family: 'Pinyon Script';
+	color: rgb(68, 36, 68);
     margin: 0;
 
 } 
 h2 {
-    color: rgb(8, 8, 8);
+    color: rgb(12, 12, 12);
     margin-top: 0.2rem;
     display: block;
 	padding: 0.6rem 0.8rem;
@@ -60,6 +57,7 @@ h2 {
     max-width: 760px;
     margin: 0 auto;
     border-radius: 12px;
+    border: 1px solid #330431;
     text-align: center;
     padding: 1rem;
     background: #ffffffcc;
@@ -79,7 +77,7 @@ h2 {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    border: 2px solid #b88bb8;
+   border: 1px solid #330431;
     flex-shrink: 0;
 }
 
@@ -101,7 +99,7 @@ h2 {
     padding: 0.5rem 1rem;
     border-radius: 12px;
     border: none;
-    background: #3d3c3d;
+    background: #201f20;
     color: white;
     font-size: 1rem;
     font-weight: 400;
@@ -110,7 +108,7 @@ h2 {
 }
 
 .btn:hover {
-    background: #4b234b;
+    background: #5c195c;
     transform: translateY(-3px);
 }
 
@@ -124,7 +122,7 @@ h2 {
 
 .cv-layout {
 	color: black;
-    max-width: 800px;
+    max-width: 760px;
     margin: 0 auto;
     padding: 0.5rem;
 }
@@ -153,7 +151,7 @@ h2 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
 	text-align: justify;
-	border: 3px solid #833965;
+    border: 1px solid #330431;
 	border-radius: 12px;
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 }
@@ -187,8 +185,9 @@ h3 {
 }
 
 .edu-item:hover {
-    background: #8f8b8faf;
-    border-radius: 6px;
+    background: linear-gradient(135deg, #646468d7 0%, #ffffff 100%);
+    border-color: #0a0a0a;
+    border-radius: 12px;
 }
 .edu-list {
     background-color: white;
@@ -197,7 +196,7 @@ h3 {
     list-style: none;
     padding: 0;
     margin: 0;
-    border: #330431 solid 2px;
+    border: 1px solid #330431;
     border-radius: 12px;
     padding: 0.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -207,7 +206,7 @@ h3 {
 .edu-year {
     min-width: 200px;
     font-weight: 800;
-    color: #613c56;
+    color: #3c143f;
 }
 
 .edu-text {
@@ -218,6 +217,7 @@ h3 {
 /* Experience */
 
 .experience-grid {
+    max-width: 760px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -226,34 +226,35 @@ h3 {
 .experience-item {
     flex: 1 1 320px;
     border: 1px solid #81139c;
+    font-size: large;
     border-radius: 12px;
     padding: 0.8rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(195, 145, 243, 0.9) 100%);
+    background: white;
 }
 
   .experience-item:hover {
     transform: translateY(-8px);
-    background: linear-gradient(135deg, #8d8c8ff6 0%, #d3c0df 100%);
+    background: linear-gradient(135deg, #646468d7 0%, #ffffff 100%);
     border-color: #0a0a0a;
 }
 
 /* Footer - Contact */
 #contact {
 	color: black;
-	max-width: 780px;
+	max-width: 760px;
     margin: 1rem auto;
-	 padding: 1rem 1.2rem;
+	padding: 1rem 1.2rem;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
 	text-align: justify;
-	border: 3px solid #833965;
+	border: 1px solid #330431;
 	border-radius: 12px;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(149, 144, 151, 0.92) 100%);
 }
 h4 {
     margin: 0 0 0.5rem 0;
     font-size: 1.2rem;
-    color: #8f4369;
+    color: #391642;
     text-align: left;
 }
 footer {
@@ -271,7 +272,7 @@ footer {
 }
 /* Copyright */
 .copyright {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     text-align: center;
     font-size: 1rem;
     color: #15051a;
@@ -302,6 +303,6 @@ footer {
     }
 
     .quote h5 {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 }
