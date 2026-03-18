@@ -185,9 +185,9 @@ h3 {
 }
 
 .edu-item:hover {
-    background: linear-gradient(135deg, #646468d7 0%, #ffffff 100%);
+    background: linear-gradient(135deg, #919192d7 0%, #e9dfee 100%);
     border-color: #0a0a0a;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 .edu-list {
     background-color: white;
@@ -234,7 +234,7 @@ h3 {
 
   .experience-item:hover {
     transform: translateY(-8px);
-    background: linear-gradient(135deg, #646468d7 0%, #ffffff 100%);
+     background: linear-gradient(135deg, #919192d7 0%, #e9dfee 100%);
     border-color: #0a0a0a;
 }
 
