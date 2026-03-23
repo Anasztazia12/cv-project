@@ -106,7 +106,6 @@ The website was also tested on a real mobile device (my own smartphone) to confi
 This screenshot demonstrates the progress made during the development process.
 ![Laptop screenshot](assets/images/screenshot2.png)
 ![Laptop screenshot](assets/images/screenshot5.png)
-![Laptop screenshot](assets/images/screenshot6.png)
 
 ## Mobile View
 
