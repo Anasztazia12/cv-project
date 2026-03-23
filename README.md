@@ -103,19 +103,20 @@ The website was also tested on a real mobile device (my own smartphone) to confi
 - Desktop computer
 - Smartphone
 
-## Mobile View
-
 This screenshot demonstrates the progress made during the development process.
-![Laptop screenshot](assets/images/screenshot3.png)
+![Laptop screenshot](assets/images/screenshot2.png)
 ![Laptop screenshot](assets/images/screenshot5.png)
 ![Laptop screenshot](assets/images/screenshot6.png)
+
+## Mobile View
 
 This screenshot shows the mobile layout as displayed using the browser’s developer tools.  
 It demonstrates how the hero text and navigation adapt to smaller screen sizes.
 
-![Laptop screenshot](assets/images/screenshot2.png)
 ![Laptop screenshot](assets/images/screenshot5.png)
 ![Laptop screenshot](assets/images/screenshot6.png)
+
+## Mobile View - On a Smartphone
 
 This screenshot was taken on a real mobile device.  
 It confirms that the layout, hero text, and navigation display correctly on an actual phone screen.
