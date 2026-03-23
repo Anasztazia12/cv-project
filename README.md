@@ -11,9 +11,17 @@ The goal of this project is to practice front-end development fundamentals while
 
 ## Project Structure
 
-### Index.html — About Me
+### Index.html — Home Page
 
 The main landing page of the website. It includes:
+
+- A short welcome header with a quote
+- Profile image
+- Name and professional title
+- Navigation menu linking to all pages
+- Contact section in the footer
+
+### About_me.html — About Me
 
 - A short personal introduction
 - Key skills
@@ -26,16 +34,16 @@ The main landing page of the website. It includes:
 This page lists my educational background and professional certifications.  
 Items are displayed in reverse chronological order (most recent first).
 
-- Profile image
 - Navigation menu
+- Educations, Qualifications
 - Contact section in the footer
 
 ### Experience.html — Professional Experience
 
 This page highlights my previous work experience and key responsibilities.
 
-- Profile image
 - Navigation menu
+- Experiences
 - Contact section in the footer
 
 ---
@@ -209,4 +217,8 @@ Result: No errors found.
 
 ## Credits
 
-Fonts used in the project were provided by "Google Fonts"
+- Fonts were provided by Google Fonts.
+- Bootstrap was used for button styling and layout support.
+- All images used in the project (profile photo and screenshots) were created by me.
+- Favicon was created from my own profile image.
+- W3C HTML and CSS Validators were used for code validation.
