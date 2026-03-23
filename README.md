@@ -106,8 +106,8 @@ This screenshot shows the mobile layout as displayed using the browser’s devel
 It demonstrates how the hero text and navigation adapt to smaller screen sizes.
 
 ![Laptop screenshot](assets/images/screenshot2.png)
-![mobile screenshot](assets/images/screenshot5.png)
-![mobile screenshot](assets/images/screenshot6.png)
+![Laptop screenshot](assets/images/screenshot5.png)
+![Laptop screenshot](assets/images/screenshot6.png)
 
 This screenshot was taken on a real mobile device.  
 It confirms that the layout, hero text, and navigation display correctly on an actual phone screen.
@@ -145,6 +145,67 @@ Possible future improvements include:
 - Improving accessibility features
 
 ---
+
+## User Experience (UX)
+
+### User Stories
+
+### First-Time Visitor Goals
+
+- As a first-time visitor, I want to immediately understand who is this person so that I can decide whether the CV is relevant to me.
+- As a first-time visitor, I want to navigate the site easily so that I can quickly find the information I need.
+- As a first-time visitor, I want the layout to be clean and readable so that I can scan the content without confusion.
+
+### Returning Visitor Goals
+
+- As a returning visitor, I want to quickly access specific section (Education, Experience, Contact) so that I can review details again.
+- As a returning visitor, I prefer if the navigation to be consistent across all pages, so that I can move between them without thinking.
+
+### Recruiter / Employer Goals
+
+- As a recruiter, I would like to see the candidate’s experience clearly, so that I can evaluate their suitability for a role.
+- As a recruiter, I want to view the education and qualifications in a structured format so that I can verify the candidate’s background.
+- As a recruiter, I want the website to load correctly on mobile so that I can check it quickly on my phone.
+
+### Mobile User Goals
+
+- As a mobile user, I want the content to adapt to my screen size so that I can read everything comfortably.
+- As a mobile user, I want the navigation to be simple and accessible so that I can move between pages easily.
+
+### General User Goals
+
+- As a user, I want the design to be visually appealing so that the site feel professional and trustworthy.
+- As a user, I want the contact information so be easy to find so that I can reach out if needed.
+
+---
+
+## Validator
+
+### HTML Validator
+
+The HTML files were tested using the W3C HTML Validator.
+Result: No errors found.
+
+![HTML Validator Screenshot 1](assets/images/screenshot7.png)
+![HTML Validator Screenshot 1](assets/images/screenshot8.png)
+![HTML Validator Screenshot 2](assets/images/screenshot9.png)
+![HTML Validator Screenshot 3](assets/images/screenshot10.png)
+
+## CSS Validator
+
+The CSS file was tested using the W3C CSS Validator.
+Result: No errors found.
+
+![HTML Validator Screenshot 1](assets/images/screenshot.png)
+
+## Manual testing table
+
+|      Feature        |      Expected Result       |    Actual Result    |  Pass  |
+|---------------------|----------------------------|---------------------|--------|
+| Navigation links    | Open correct page          | Works as expected   |   Yes  |
+| Mobile layout       | Stacks correctly           | Works               |   Yes  |
+| Images load         | All images visible         | Works               |   Yes  |
+| Contact links       | Email/phone open correctly | Works               |   Yes  |
 
 ## Credits
 
