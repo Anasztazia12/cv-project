@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -6,10 +6,48 @@
 html {
     scroll-behavior: smooth;
 }
+/* index.html background */
+.background {
+     background-image: url('../images/picture.png');
+    background-size: cover;
+    background-position: center;
+}
+/* index.html */
+.page-shell1 {
+    max-width: 800px;
+    margin: 0.2rem auto;
+    padding: 0.3rem;
+    border-radius: 12px;
+}
+ 
+.top-title1 {
+   max-width: 760px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid #434344;
+    padding: 1rem;
+    text-align: left;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    background-color: #272526;
+    color: hwb(142 93% 3%);
+}
 
-body {
+.top-title1 h1, .top-title1 h2 {
     margin: 0;
-    background: linear-gradient(180deg, #f7f4f4c9 0%, #4b4a4dcc 100%);
+    line-height: 1.2;
+    color: hwb(142 93% 3%);
+}
+.profile-image {
+    width: 100%;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #434344;
+    flex-shrink: 0;
 }
 /* Quote */
 .quote {
@@ -18,11 +56,11 @@ body {
      flex: 1;
 }
  .quote h5 {
-    font-family: 'Pinyon Script', cursive;
-	font-size: 2rem;
-    color: rgb(15, 6, 10);
+    font-family: 'Almendra SC', static;
+	font-size: 1.4rem;
+    color: hwb(142 93% 3%);
 	text-align: center;
-     margin: 0;
+    margin: 0;
 }
 .quote-row {
     display: flex;
@@ -31,19 +69,52 @@ body {
     gap: 0.6rem;
 }
 
+body {
+    margin: 0;
+    background-color: rgb(133, 133, 138);
+}
+/* index.html-Footer - Contact */
+#contact1 {
+	color: black;
+	max-width: 760px;
+    margin: 1rem auto;
+	padding: 1rem 1.2rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: larger;
+	text-align: justify;
+	border: 1px solid #171718;
+	border-radius: 12px;
+	background-color: #272526;
+}
+h3.contact1-title {
+    margin: 0 0 0.5rem 0;
+    text-align: left;
+}
+footer {
+    padding: 0;
+}
+
+#contact1 p {
+    margin: 0.25rem 0;
+    text-align: left;
+}
+
+#contact1 a {
+    color: hwb(240 59% 39%);
+    font-weight: 700;
+}
 /* Header */
 .page-shell {
     max-width: 800px;
     margin: 0.2rem auto;
     padding: 0.3rem;
-     border: 1px solid #3f4bf5;
+    border: 1px solid #434344;
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.8) 100%);
 }
 
 h1 {
     margin: 0;
-
 } 
 h2 {
     color: rgb(12, 12, 12);
@@ -55,10 +126,10 @@ h2 {
     max-width: 760px;
     margin: 0 auto;
     border-radius: 12px;
-     border: 1px solid #3f4bf5;
+    border: 1px solid #434344;
     text-align: center;
     padding: 1rem;
-    background: #ffffffcc;
+    background-color: white;
     backdrop-filter: blur(4px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
@@ -75,7 +146,7 @@ h2 {
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    border: 1px solid #3f4bf5;
+    border: 1px solid #434344;
     flex-shrink: 0;
 }
 
@@ -129,7 +200,7 @@ h2 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
 	text-align: justify;
-    border: 1px solid #3f4bf5;
+    border: 1px solid #434344;
 	border-radius: 12px;
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(244, 236, 247, 0.92) 100%);
 }
@@ -172,7 +243,7 @@ h3 {
     list-style: none;
     padding: 0;
     margin: 0;
-    border: 1px solid #3f4bf5;
+   border: 1px solid #434344;
     border-radius: 12px;
     padding: 0.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -201,7 +272,7 @@ h3 {
 
 .experience-item {
     flex: 1 1 320px;
-    border: 1px solid #3f4bf5;
+    border: 1px solid #434344;
     font-size: large;
     border-radius: 12px;
     padding: 0.8rem;
@@ -223,7 +294,7 @@ h3 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: larger;
 	text-align: justify;
-	border: 1px solid #3f4bf5;
+	border: 1px solid #434344;
 	border-radius: 12px;
 	background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(210, 205, 212, 0.92) 100%);
 }
@@ -241,7 +312,7 @@ footer {
 }
 
 #contact a {
-    color: #160115;
+    color: #292829;
     font-weight: 700;
 }
 /* Copyright */
