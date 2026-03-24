@@ -70,6 +70,7 @@ This project was built using the following technologies:
 - HTML5
 - CSS3
 - Flexbox for layout
+- Bootsrap
 - Google Fonts
 - MarkdownLint
 

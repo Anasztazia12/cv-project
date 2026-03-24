@@ -31,12 +31,12 @@ body{
    max-width: 760px;
     margin: 0 auto;
     border-radius: 12px;
-    border: 1px solid #171718;
+    border: 1px solid #282829;
     padding: 1rem;
     text-align: left;
     backdrop-filter: blur(4px);
     box-shadow: 0 6px 18px rgba(119, 115, 115, 0.08);
-   background: linear-gradient(180deg, rgba(115, 153, 230, 0.925) 0%, rgba(88, 86, 86, 0.932) 100%);
+    background: linear-gradient(180deg, rgba(115, 153, 230, 0.925) 0%, rgba(41, 41, 41, 0.932) 100%);
     color: hwb(142 93% 3%);
 }
 .top-title1 h1, .top-title1 h2 {
@@ -73,36 +73,6 @@ body{
     align-items: center;
     justify-content: space-between;
     gap: 0.6rem;
-}
-
-/* index.html-Footer - Contact */
-#contact1 {
-	color: hwb(142 93% 3%);
-	max-width: 760px;
-    margin: 1rem auto;
-	padding: 1rem 1.2rem;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: larger;
-	text-align: justify;
-	border: 1px solid #171718;
-	border-radius: 12px;
-	background: linear-gradient(180deg, rgba(115, 153, 230, 0.925) 0%, rgba(88, 86, 86, 0.932) 100%);
-}
-h3.contact1-title {
-    margin: 0 0 0.5rem 0;
-    text-align: left;
-}
-footer {
-    padding: 0;
-}
-
-#contact1 p {
-    margin: 0.25rem 0;
-    text-align: left;
-}
-
-#contact1 a {
-    color: hwb(245 3% 61%);
 }
 
 /* Header */
@@ -158,7 +128,6 @@ h2 {
     padding: 4px 8px;
     border-radius: 4px; 
 }
-
 .cv-layout {
 	color: black;
     max-width: 760px;
@@ -170,7 +139,6 @@ h2 {
     margin-bottom: 1rem;
     padding-left: 1.2rem;
 }
-
 .cv-layout li,
 .cv-layout p {
     line-height: 1.5;
@@ -205,8 +173,8 @@ h3 {
     padding-left: 1.5rem;
     
 }
-/* Education */
 
+/* Education */
 .education-section {
     margin-bottom: 1rem;
     max-width: 760px;
@@ -239,27 +207,23 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
 }
-
 .edu-year {
     min-width: 200px;
     font-weight: 800;
     color: rgb(7, 10, 143);
 }
-
 .edu-text {
     flex: 1;
     font-weight: 600;
 }
 
 /* Experience */
-
 .experience-grid {
     max-width: 760px;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
-
 .experience-item {
     flex: 1 1 320px;
     border: 1px solid #434344;
@@ -275,40 +239,6 @@ h3 {
     border-color: #0a0a0a;
 }
 
-/* Footer - Contact */
-#contact {
-	color: black;
-	max-width: 760px;
-    margin: 1rem auto;
-	padding: 1rem 1.2rem;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: larger;
-	text-align: justify;
-	border: 1px solid #434344;
-	border-radius: 12px;
-	background: linear-gradient(135deg, rgba(255, 255, 255, 0.63) 0%, rgba(244, 236, 247, 0.92) 100%);
-}
-h3.contact-title {
-    margin: 0 0 0.5rem 0;
-    text-align: left;
-}
-footer {
-    padding: 0;
-}
-
-#contact p {
-    margin: 0.25rem 0;
-    text-align: left;
-}
-
-#contact a {
-    color: rgb(7, 10, 143);
-    font-weight: 700;
-}
-#contact a:active {
-    color: red;
-}
-
 /* Copyright */
 .copyright {
     margin-top: 0.6rem;
@@ -316,6 +246,85 @@ footer {
     font-size: 1rem;
     color: #ffffff;
 }
+
+/* Custom Bootstrap modal style for contact */
+/* Custom Bootstrap modal style for contact - szürkésebb változat */
+#contactModal .modal-content {
+    background: linear-gradient(135deg, rgba(245,245,245,0.97) 0%, rgba(180,180,180,0.92) 100%);
+    border-radius: 16px;
+    border: 2px solid #434344;
+    box-shadow: 0 8px 32px rgba(80,77,77,0.18);
+}
+#contactModal .modal-header, #contactModal .modal-footer {
+    background: rgba(143,137,137,0.18);
+    border-bottom: 1px solid #434344;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#contactModal .modal-title {
+    color: #232323;
+    font-family: 'Almendra SC', serif;
+    font-size: 1.6rem;
+}
+#contactModal .modal-body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #171718;
+}
+#contactModal a {
+    color: #232323;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#contactModal .btn-secondary {
+    background: linear-gradient(90deg, #b4b4b4 0%, #585656 100%);
+    color: #fff;
+    border: none;
+}
+#contactModal .btn-close {
+    filter: none;
+    opacity: 1;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    border: 2px solid #2a4d8f;
+    width: 2.2rem;
+    height: 2.2rem;
+    box-shadow: 0 4px 16px rgba(42,77,143,0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border 0.2s, box-shadow 0.2s, transform 0.2s;
+    color: #2a4d8f;
+    font-size: 1.6rem;
+}
+#contactModal .btn-close::after {
+    content: '×';
+    font-size: 1.6rem;
+    color: #2a4d8f;
+    font-weight: bold;
+    line-height: 1;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#contactModal .btn-close span {
+    display: none;
+}
+#contactModal .btn-close:hover {
+    background-color: #2a4d8f;
+    border-color: #232323;
+    color: #fff;
+    box-shadow: 0 6px 24px rgba(42,77,143,0.28);
+    transform: scale(1.08);
+}
+#contactModal .btn-close:hover::after {
+    color: #fff;
+}
+#contactModal .btn-close:focus {
+    outline: 2px solid #2a4d8f;
+    outline-offset: 2px;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
 
@@ -352,4 +361,39 @@ footer {
         font-size: 1.4rem;
     }
 
-} 
+    #contactModal .modal-content {
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+    #contactModal .modal-title {
+        font-size: 1.2rem;
+    }
+    #contactModal .modal-body {
+        font-size: 1rem;
+        padding: 0.5rem 0.2rem;
+    }
+    #contactModal .modal-header, #contactModal .modal-footer {
+        border-radius: 10px 10px 0 0;
+        padding: 0.5rem 0.7rem;
+    }
+    #contactModal .btn-secondary {
+        font-size: 0.95rem;
+        padding: 0.3rem 0.8rem;
+    }
+}
+
+#contactModal .modal-body a[href^="mailto"],
+#contactModal .modal-body a[href^="tel"] {
+    color: #2a4d8f;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#contactModal .modal-body a[href^="https://github.com"] {
+    color: #2a4d8f;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#contactModal .modal-body a[href^="https://github.com"]:hover {
+    color: #4a7cc9;
+}
+
