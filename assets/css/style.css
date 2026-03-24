@@ -7,15 +7,19 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-image: url('../images/webes.png');
+    background-image: url('../images/background2.png');
     background-size: cover;
-    background-position: center;
+    background-position: 98% top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 /* index.html */
 .background {
     background-image: url('../images/picture.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 .page-shell1 {
     max-width: 800px;
@@ -323,7 +327,6 @@ footer {
         font-size: 0.9rem;
         padding: 8px 10px;
     }
-
      .quote-row {
         flex-direction: row;
     }
@@ -334,6 +337,6 @@ footer {
     }
 
     .quote h5 {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
