@@ -48,17 +48,30 @@
         <a class="btn btn-warning" href="about_me.html" role="button" aria-label="Go to About Me page">About Me</a>
         <a class="btn btn-danger" href="education.html" role="button" aria-label="Go to Education page">Education</a>
         <a class="btn btn-info" href="experience.html" role="button" aria-label="Go to Experience page">Experience</a>
-        <a class="btn btn-success" href="#contact1" role="button" aria-label="Jump to Contact section">Contact</a>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal" aria-label="Open Contact modal">Contact</button>
     </nav>
 </header>     
 
-<!-- Footer - Contact  -->
-  <footer id="contact1">
-    <h3>Contact</h3>
-    <p>Email address: <a href="mailto:kecskes.anasztazia@gmail.com">kecskes.anasztazia@gmail.com</a></p>
-    <p>Phone: <a href="tel:+447564040783">+44 7564040783</a></p>
-    <p>GitHub: <a href="https://github.com/Anasztazia12" target="_blank" rel="noopener noreferrer">Anasztazia12</a></p>
-</footer>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="contactModalLabel">Contact</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p><strong>Email address:</strong> <a href="mailto:kecskes.anasztazia@gmail.com">kecskes.anasztazia@gmail.com</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+447564040783">+44 7564040783</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Anasztazia12" target="_blank" rel="noopener noreferrer">Anasztazia12</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Copyright -->
 <div class="copyright">
