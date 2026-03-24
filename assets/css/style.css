@@ -313,21 +313,29 @@ footer {
     color: #ffffff;
 }
 /* Responsive */
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
+
+    body {
+        background-attachment: scroll;
+        background-position: center top;
+        background-size: cover;
+    }
+
     .site-nav {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
         justify-content: center;
         gap: 8px;
     }
 
     .site-nav a {
-        width: auto; 
+        width: auto;
         font-size: 0.9rem;
         padding: 8px 10px;
     }
-     .quote-row {
+
+    .quote-row {
         flex-direction: row;
     }
 
@@ -339,4 +347,5 @@ footer {
     .quote h5 {
         font-size: 1.4rem;
     }
-}
+
+} 
