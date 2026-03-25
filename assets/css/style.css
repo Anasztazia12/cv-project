@@ -269,11 +269,7 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
     color: #171718;
-}
-#contactModal a {
-    color: #232323;
-    font-weight: 700;
-    text-decoration: underline;
+
 }
 #contactModal .btn-secondary {
     background: linear-gradient(90deg, #b4b4b4 0%, #585656 100%);

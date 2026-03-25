@@ -168,9 +168,9 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ### Mobile View - On a Smartphone
 
-![Mobile View 1](assets/images/mobile1.jpg)
+![Mobile View 1](assets/images/mobile1.jpeg)
 
-![Mobile View 2](assets/images/mobile2.jpg)
+![Mobile View 2](assets/images/mobile2.png)
 
 ---
 
