@@ -66,10 +66,9 @@ The goal of this project is to practice front-end development fundamentals while
 - Education and experience content
 - Responsive layout
 - Contact information
-
 These features are essential for the website to function as a complete CV.
 
-Quick Task – Feature Prioritisation Table
+### Quick Task – Feature Prioritisation Table
 
 |       Feature         |                  Description                                 |      Priority   |
 |-----------------------|--------------------------------------------------------------|-----------------|
@@ -156,17 +155,21 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 ### Screenshots
 
 ![Screenshot 2](assets/images/screenshot2.png)
+
 ![Screenshot 3](assets/images/screenshot3.png)
+
 ![Screenshot 4](assets/images/screenshot4.png)
 
 ### Mobile View
 
 ![Mobile View](assets/images/screenshot6.png)
+
 ![Mobile View](assets/images/screenshot1.png)
 
 ### Mobile View - On a Smartphone
 
 ![Mobile View 1](assets/images/mobile1.jpg)
+
 ![Mobile View 2](assets/images/mobile2.jpg)
 
 ---
@@ -219,8 +222,11 @@ Steps:
 
 Tested using W3C HTML Validator — no errors found.
 ![HTML Validator Screenshot 1](assets/images/screenshot7.png)
+
 ![HTML Validator Screenshot 1](assets/images/screenshot8.png)
+
 ![HTML Validator Screenshot 2](assets/images/screenshot9.png)
+
 ![HTML Validator Screenshot 3](assets/images/screenshot10.png)
 
 ### CSS Validator
