@@ -183,19 +183,11 @@ h3 {
 .edu-item {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
-    padding: 0.55rem 0;
-    border-bottom: 1px solid #272526;
     gap: 0.25rem;
-}
-
-.edu-item:hover {
-    background: linear-gradient(135deg, hsl(0, 100%, 99%) 0%, #dbd8db 100%);
-    border-color: #000000;
-    border-radius: 6px;
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #434344;
 }
 .edu-list {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.63) 0%, rgba(244, 236, 247, 0.92) 100%);
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -206,6 +198,7 @@ h3 {
     padding: 0.8rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
+    background: linear-gradient(135deg, rgba(235, 231, 231, 0.63) 0%, rgba(235, 235, 240, 0.92) 100%);
 }
 .edu-year {
     min-width: 200px;
@@ -216,7 +209,11 @@ h3 {
     flex: 1;
     font-weight: 600;
 }
-
+.edu-item:hover {
+    background: linear-gradient(135deg, hsl(0, 1%, 20%) 0%, #dbd8db 100%);
+    border-color: #0a0a0a;
+    border-radius: 6px;
+}
 /* Experience */
 .experience-grid {
     max-width: 760px;
@@ -230,12 +227,11 @@ h3 {
     font-size: large;
     border-radius: 12px;
     padding: 0.8rem;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.63) 0%, rgba(244, 236, 247, 0.92) 100%);
+    background: linear-gradient(135deg, rgba(235, 231, 231, 0.63) 0%, rgba(235, 235, 240, 0.92) 100%);
 }
-
   .experience-item:hover {
     transform: translateY(-8px);
-    background: linear-gradient(135deg, hsl(0, 100%, 99%) 0%, #dbd8db 100%);
+    background: linear-gradient(135deg, hsl(0, 1%, 20%) 0%, #dbd8db 100%);
     border-color: #0a0a0a;
 }
 
