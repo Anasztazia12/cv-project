@@ -221,6 +221,7 @@ Steps:
 ### HTML Validator
 
 Tested using W3C HTML Validator — no errors found.
+
 ![HTML Validator Screenshot 1](assets/images/screenshot7.png)
 
 ![HTML Validator Screenshot 1](assets/images/screenshot8.png)
