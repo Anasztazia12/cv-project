@@ -154,23 +154,23 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ### Screenshots
 
-![Screenshot 2](assets/images/screenshot2.png)
+![Screenshot 2](assets/images/screenshot2a.png)
 
-![Screenshot 3](assets/images/screenshot3.png)
+![Screenshot 3](assets/images/screenshot3a.png)
 
-![Screenshot 4](assets/images/screenshot4.png)
+![Screenshot 4](assets/images/screenshot4a.png)
 
 ### Mobile View
 
-![Mobile View](assets/images/screenshot6.png)
+![Mobile View](assets/images/screenshot6a.png)
 
-![Mobile View](assets/images/screenshot1.png)
+![Mobile View](assets/images/screenshot1a.png)
 
 ### Mobile View - On a Smartphone
 
-![Mobile View 1](assets/images/mobile1.jpeg)
+![Mobile View 1](assets/images/mobile1a.jpeg)
 
-![Mobile View 2](assets/images/mobile2.png)
+![Mobile View 2](assets/images/mobile2a.png)
 
 ---
 
@@ -222,20 +222,20 @@ Steps:
 
 Tested using W3C HTML Validator — no errors found.
 
-![HTML Validator Screenshot 1](assets/images/screenshot7.png)
+![HTML Validator Screenshot 1](assets/images/screenshot7a.png)
 
-![HTML Validator Screenshot 1](assets/images/screenshot8.png)
+![HTML Validator Screenshot 1](assets/images/screenshot8a.png)
 
-![HTML Validator Screenshot 2](assets/images/screenshot9.png)
+![HTML Validator Screenshot 2](assets/images/screenshot9a.png)
 
-![HTML Validator Screenshot 3](assets/images/screenshot10.png)
+![HTML Validator Screenshot 3](assets/images/screenshot10a.png)
 
 ### CSS Validator
 
 The CSS file was tested using the W3C CSS Validator.
 Result: No errors found.
 
-![CSS Validator Screenshot 1](assets/images/screenshot.png)
+![CSS Validator Screenshot 1](assets/images/screenshot0.png)
 
 ---
 
