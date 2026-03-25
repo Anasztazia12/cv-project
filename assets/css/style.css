@@ -319,6 +319,22 @@ h3 {
     outline: 2px solid #2a4d8f;
     outline-offset: 2px;
 }
+#contactModal .btn-secondary:hover {
+    color: blue;
+}
+
+    
+#contactModal .modal-body a {
+    color: #082d72;
+    font-weight: 700;
+    text-decoration: underline;
+}
+#contactModal .modal-body a:hover {
+    color: #048079;
+}
+#contactModal .modal-body a:active {
+    color: #af0404;
+}
 
 /* Responsive */
 @media (max-width: 600px) {
@@ -375,20 +391,5 @@ h3 {
         font-size: 0.95rem;
         padding: 0.3rem 0.8rem;
     }
-}
-
-#contactModal .modal-body a[href^="mailto"],
-#contactModal .modal-body a[href^="tel"] {
-    color: #2a4d8f;
-    font-weight: 700;
-    text-decoration: underline;
-}
-#contactModal .modal-body a[href^="https://github.com"] {
-    color: #2a4d8f;
-    font-weight: 700;
-    text-decoration: underline;
-}
-#contactModal .modal-body a[href^="https://github.com"]:hover {
-    color: #4a7cc9;
 }
 
