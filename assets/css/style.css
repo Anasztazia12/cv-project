@@ -15,7 +15,7 @@ body{
 }
 /* index.html */
 .background { 
-    background-image: url('../images/picture4.png'); 
+    background-image: url('../images/picture.png'); 
     background-size: cover;
     background-position: 90% 20%; 
     background-attachment: fixed; 
