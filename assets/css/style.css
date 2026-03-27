@@ -7,7 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body{
-    background-image: url('../images/background2.png');
+    background-image: url('../images/picture.png');
     background-size: cover;
     background-position: 98% top;
     background-attachment: fixed;
@@ -15,9 +15,9 @@ body{
 }
 /* index.html */
 .background { 
-    background-image: url('../images/picture.png'); 
-    background-size: cover; 
-    background-position: center 20%; 
+    background-image: url('../images/picture4.png'); 
+    background-size: cover;
+    background-position: 90% 20%; 
     background-attachment: fixed; 
     background-repeat: no-repeat; 
 }
