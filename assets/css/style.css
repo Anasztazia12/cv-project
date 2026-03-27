@@ -78,6 +78,24 @@ body{
     justify-content: space-between;
     gap: 0.6rem;
 }
+.copyright1 {
+    max-width: 760px;
+    margin: 50px auto 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 12px;
+    background: linear-gradient(180deg, rgba(138, 172, 240, 0.925) 0%, rgba(66, 66, 66, 0.932) 100%);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    line-height: 1;
+    border-radius: 8px;
+    border: #dbd8db 2px solid;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
 
 /* Header */
 .page-shell {
@@ -255,7 +273,7 @@ h3 {
     border-radius: 8px;
     border: #dbd8db 2px solid;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #ffffff;
 }
 
