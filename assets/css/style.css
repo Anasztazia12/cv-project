@@ -66,7 +66,7 @@ body{
     flex: 1;
 }
  .quote h5 {
-    font-family: 'Almendra SC', static;
+    font-family: 'Almendra SC', serif;
 	font-size: 1.4rem;
     color: hwb(142 93% 3%);
 	text-align: center;
