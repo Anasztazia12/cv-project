@@ -13,7 +13,7 @@ The goal of this project is to practice front-end development fundamentals while
 
 ## User Stories
 
-### User Experience Prioritisation (MoSCoW)
+### User Experience Prioritisation
 
 #### Must Have
 
