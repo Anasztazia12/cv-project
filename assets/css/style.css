@@ -132,9 +132,23 @@ h2 {
 .site-nav {
     display: flex;
     gap: 0.5rem;
-	justify-content: center;
-	align-self: self-end;
+    justify-content: center;
     margin-top: 0.8rem;
+}
+
+.site-nav .btn {
+    border-width: 1px;
+}
+
+.site-nav .btn:hover,
+.site-nav .btn:focus-visible {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
+}
+
+.site-nav .btn:active {
+    transform: translateY(0) scale(0.99);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
 }
 
 /* .cv-layout */
