@@ -136,6 +136,11 @@ h2 {
     margin-top: 0.8rem;
 }
 
+.cv-download-wrap {
+    text-align: center;
+    margin-top: 0.6rem;
+}
+
 .site-nav .btn {
     border-width: 1px;
 }
