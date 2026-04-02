@@ -13,27 +13,26 @@ The goal of this project is to practice front-end development fundamentals while
 
 ## User Stories
 
-### First-Time Visitor Goals
+### User Experience Prioritisation (MoSCoW)
+
+#### Must Have
 
 - As a first-time visitor, I want to immediately understand who this person is so that I can decide whether the CV is relevant to me.
 - As a first-time visitor, I want to navigate the site easily so that I can quickly find the information I need.
-- As a first-time visitor, I want the layout to be clean and readable so, I can scan the content without confusion.
-
-### Returning Visitor Goals
-
-- As a returning visitor, I want to quickly access specific section (Education, Experience, Contact) so that I can review the details again.
-- As a returning visitor, I prefer the navigation to be consistent across all pages so that I can move between them without thinking.
-
-### Recruiter / Employer Goals
-
 - As a recruiter, I want to see the candidate’s experience clearly so I can evaluate her suitability for a role.
 - As a recruiter, I want to view the education and qualifications in a structured format so that I can verify the candidate’s background.
-- As a recruiter, I want the website to load correctly on mobile so that I can see on my phone.
-
-### Mobile User Goals
-
 - As a mobile user, I want the content to adapt to my screen size so that I can read everything comfortably.
+
+#### Should Have
+
+- As a first-time visitor, I want the layout to be clean and readable so, I can scan the content without confusion.
+- As a returning visitor, I want to quickly access specific section (Education, Experience, Contact) so that I can review the details again.
+- As a returning visitor, I prefer the navigation to be consistent across all pages so that I can move between them without thinking.
 - As a mobile user, I want the navigation to be simple and accessible so that I can move between pages easily.
+
+#### Could Have
+
+- As a recruiter, I want the website to load correctly on mobile so that I can see on my phone.
 
 ---
 
