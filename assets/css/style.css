@@ -343,6 +343,44 @@ h3 {
 /* Responsive */
 @media (max-width: 600px) {
 
+    .top-title {
+        max-width: 95%;
+        padding: 0.75rem 0.5rem;
+        margin: 0.5rem auto;
+    }
+
+    .page-shell {
+        max-width: 95%;
+        padding: 0.2rem;
+    }
+
+    .cv-layout {
+        max-width: 95%;
+        padding: 0.5rem;
+    }
+
+    .info {
+        max-width: 95%;
+        padding: 0.8rem 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        padding: 0.5rem 0.6rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    .cv-download-wrap {
+        margin-top: 0.5rem;
+    }
+
     .education-columns {
         flex-direction: column;
         gap: 0.6rem;
@@ -360,6 +398,7 @@ h3 {
         flex-wrap: wrap;
         justify-content: center;
         gap: 8px;
+        margin-top: 0.5rem;
     }
 
     .site-nav a {
@@ -368,9 +407,6 @@ h3 {
         padding: 8px 10px;
     }
 
-    .quote-row {
-        flex-direction: row;
-    }
     .quote-text,
     .quote-author {
         font-size: 1.4rem;
