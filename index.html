@@ -21,41 +21,68 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="background">
+<body>
 <!-- Header -->
-<header class="top-title1">
-    <div class="quote-row">
-    <div class="quote" aria-label="Inspirational quote about error messages">
-    <h5>"The best error message is the one that never shows up."</h5>
-    <h5>Thomas Fuchs, web developer</h5>
-</div>
-
-<!-- Profile Image -->
-    <div class="circle">
-        <img 
-    src="assets/images/face_me.png" alt="Portrait photo of Anasztázia Karalyos-Kecskés" class="profile-image" 
-    role="img" aria-label="Portrait photo of Anasztázia Karalyos-Kecskés">
+<header class="top-title">
+    <div class="page-shell">
+        <h1>Anasztazia Karalyos-Kecskes</h1>
+        <h2>Web Application Developer</h2>
     </div>
-</div>
-    <div class="page-shell1">
-    <h1>Anasztazia Karalyos-Kecskes</h1>
-    <h2>Web Application Developer</h2>
-</div>
-<!-- CV Download and Button -->
+    <!-- CV Download Button -->
 <div class="cv-download-wrap">
     <a href="assets/pdf/CV_Anasztazia_Karalyos-Kecskes.pdf" download class="btn btn-primary btn-sm sharp-corners">
         Download CV</a>
 </div>
 
- <!-- Navigation bootstrap-->
+    <!-- Navigation bootstrap-->
     <nav class="site-nav" aria-label="Main navigation">
         <a class="btn btn-light" href="index.html" role="button" aria-label="Go to Home page">Home</a>
-        <a class="btn btn-warning" href="about_me.html" role="button" aria-label="Go to About Me page">About Me</a>
+        <a class="btn btn-warning" href="#about-me" role="button" aria-label="Go to About Me">About Me</a>
         <a class="btn btn-danger" href="education.html" role="button" aria-label="Go to Education page">Education</a>
         <a class="btn btn-info" href="experience.html" role="button" aria-label="Go to Experience page">Experience</a>
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#contactModal" aria-label="Open Contact modal">Contact</button>
     </nav>
-</header>     
+</header> 
+
+<!-- Main Section - About Me -->
+ <main class="cv-layout">
+    <section id="about-me">
+        <div class="subtitle">
+            <h2><strong>About Me</strong></h2>
+        </div>
+        <div class="info">
+            <h4><strong>Welcome, </strong></h4>
+            <h4><strong>and thank you for visiting my portfolio!</strong></h4>
+            <br>
+                <div class="quote" aria-label="Inspirational quote about error messages">
+                    <h5><strong>"The best error message is the one that never shows up."</strong></h5>
+                    <h5><strong>Thomas Fuchs, web developer</strong></h5>
+                </div>
+            <p>I am currently studying to become a Web Application Developer, and this project reflects my learning journey. </p> 
+            <p>My background in healthcare and pharmacy assistance taught me accuracy, responsibility, and attention to detail, which are essential in writing reliable code.</p>
+            <p> Working in childcare and studying pedagogy and psychology helped me understand people better, so I focus on building websites that are clear, supportive, and easy to use.</p>
+            <p>My sport and personal trainer studies strengthened my discipline, consistency, and goal-oriented mindset, which I apply to every development task. 
+            I also enjoy languages and communication, and this helps me create content that is understandable for different users. 
+            I am motivated to combine all these experiences into practical, user-focused web applications as I continue growing in this field.</p>               
+            <br>
+            <p>My project: <a href="https://tinyurl.com/Karalyos-Robert" target="_blank" rel="noopener noreferrer">https://tinyurl.com/Karalyos-Robert</a> This is my husband's website CV</p>
+            <br><hr>
+            <!-- Key Skills -->
+             <h3>  Key Skills  </h3>
+             <ul class="skills-list">
+                <li>Strong problem‑solving and analytical thinking</li>
+                <li>Clean, structured HTML & CSS development</li>
+                <li>Responsive layout creation (Flexbox, modern CSS techniques)</li>
+                <li>UX fundamentals: wireframes, mockups, information architecture</li>
+                <li>Attention to details and consistent design</li>  
+                <li>Fast learning and adaptability</li> 
+                <li>Clear communication in English and Hungarian</li>
+                <li>Organized workflow and version control (Git)</li>
+                <li>Creative approach to visual and interactive elements</li> 
+            </ul> 
+        </div>
+    </section>
+</main>
 
 <!-- Contact Modal -->
 <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -78,7 +105,7 @@
 </div>
 
 <!-- Copyright -->
-<footer class="copyright1">
+<footer class="copyright">
     <p><strong>© 2026 Anasztazia Karalyos-Kecskes.</strong></p>
     <p><strong>All rights reserved.</strong></p>
 </footer>

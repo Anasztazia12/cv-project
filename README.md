@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This project is a four-page personal CV website created using HTML and CSS.  
+This project is a three-page personal CV website created using HTML and CSS.  
 The website presents my professional background, education, and experience in a clear and structured format.
 
 The goal of this project is to practice front-end development fundamentals while building a simple but professional portfolio-style website.
@@ -59,7 +59,7 @@ The goal of this project is to practice front-end development fundamentals while
 
 ### The MVP includes
 
-- All pages (Home, About Me, Education, Experience)
+- All pages (Home, Education, Experience)
 - Navigation menu
 - Profile image and introduction
 - Education and experience content
@@ -87,18 +87,11 @@ These features are essential for the website to function as a complete CV.
 
 The main landing page of the website. It includes:
 
-- A short welcome header with a quote
-- Profile image
 - Name and professional title
 - Navigation menu linking to all pages
-- Contact MODAL
-
-### About_me.html — About Me
-
+- A short welcome header with a quote
 - A short personal introduction
 - Key skills
-- Profile image
-- Navigation menu
 - Contact MODAL
 
 ### Education.html — Education
