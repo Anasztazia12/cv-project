@@ -1,5 +1,7 @@
 # My CV Website
 
+**GitHub Repository:** [https://github.com/Anasztazia12/cv-project/](https://github.com/Anasztazia12/cv-project/)
+
 ## 1. Strategy Plane
 
 ## Project Overview
@@ -214,20 +216,32 @@ Steps:
 
 Tested using W3C HTML Validator — no errors found.
 
-![HTML Validator Screenshot 1](assets/images/screenshot7a.png)
+Tested on: 23/March/2026
 
-![HTML Validator Screenshot 1](assets/images/screenshot8a.png)
+![HTML Validator Screenshot 7](assets/images/screenshot7a.png)
 
-![HTML Validator Screenshot 2](assets/images/screenshot9a.png)
+![HTML Validator Screenshot 8](assets/images/screenshot8a.png)
 
-![HTML Validator Screenshot 3](assets/images/screenshot10a.png)
+![HTML Validator Screenshot 9](assets/images/screenshot9a.png)
+
+![HTML Validator Screenshot 10](assets/images/screenshot10a.png)
+
+Tested on: 08/April/2026
+
+![HTML Validator Screenshot 11](assets/images/screenshot11a.png)
 
 ### CSS Validator
 
 The CSS file was tested using the W3C CSS Validator.
 Result: No errors found.
 
-![CSS Validator Screenshot 1](assets/images/screenshot0.png)
+Tested on: 23/March/2026
+
+![CSS Validator Screenshot 0](assets/images/screenshot0.png)
+
+Tested on: 08/April/2026
+
+![HTML Validator Screenshot 12](assets/images/screenshot12a.png)
 
 ---
 
