@@ -91,6 +91,7 @@ The main landing page of the website. It includes:
 
 - Name and professional title
 - Navigation menu linking to all pages
+- About Me section
 - A short welcome header with a quote
 - A short personal introduction
 - Key skills
@@ -121,6 +122,8 @@ This page highlights my previous work experience adn key responsibilities.
 
 - Flexbox used for layout
 - Navigation buttons stay on one line on all screen sizes (as intended)
+- Bootstrap buttons remain clear and easy to tap on smaller screens
+- Bootstrap contact modal displays and scales correctly on mobile devices
 - Images scale correctly
 - Text remains readable on all screen sizes
 
