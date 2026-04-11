@@ -109,10 +109,7 @@ h2 {
     gap: 1rem;
 }
 .education-columns .subtitle h2 {
-    min-height: 3.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    min-height: 0;
 }
 .cv-layout ul {
     margin-top: 0.3rem;
@@ -223,6 +220,7 @@ h3 {
 }
 .experience-item {
     flex: 1 1 320px;
+    min-width: 0;
     border: 1px solid #434344;
     font-size: large;
     border-radius: 12px;
@@ -360,8 +358,12 @@ h3 {
     }
 
     .info {
-        max-width: 95%;
+        max-width: 100%;
         padding: 0.8rem 1rem;
+    }
+
+    .subtitle h2 {
+        padding: 4px 8px;
     }
 
     h1 {
@@ -384,6 +386,10 @@ h3 {
     .education-columns {
         flex-direction: column;
         gap: 0.6rem;
+    }
+
+    .experience-item {
+        flex: 1 1 100%;
     }
 
     body {
