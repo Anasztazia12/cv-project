@@ -13,6 +13,33 @@ The goal of this project is to practice front-end development fundamentals while
 
 ---
 
+## Purpose, Value and Deployment
+
+### Purpose of the Application
+
+The purpose of this web application is to provide a clean, accessible, and easy‑to‑navigate online version of my CV.
+It demonstrates my ability to structure information using semantic HTML, apply consistent styling with CSS, and create a user‑friendly layout suitable for a personal portfolio.
+Additionally, the website is designed to help employers, recruiters, and agencies quickly review my professional background.
+By presenting my skills, education, and experience in a clear and organised format, the site makes it easier for them to assess my suitability for potential roles and opportunities.
+
+### Value to Users
+
+The website provides value by offering visitors a quick and organised way to learn about my skills, education, and experience.
+Potential employers or collaborators can easily navigate between pages, view my background, and assess my suitability for roles.
+The responsive design ensures that the CV is readable on desktop, tablet, and mobile devices.
+
+### Deployment
+
+The project is deployed using GitHub Pages.
+
+Steps:
+
+- Push the project to a GitHub repository
+- Open the repository settings
+- Navigate to the "Pages" section
+- Under Source, select the main branch
+- Click Save to publish the site
+
 ## User Stories
 
 ### User Experience Prioritisation
@@ -157,13 +184,9 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ![Screenshot 4](assets/images/screenshot4.png)
 
-### Mobile View
-
 ![Mobile View](assets/images/screenshot6.png)
 
 ![Mobile View](assets/images/screenshot1.png)
-
-### Mobile View - On a Smartphone
 
 ![Mobile View 1](assets/images/mobile1.jpeg)
 
@@ -198,18 +221,6 @@ Franklin Gothic Medium / Arial Narrow / Arial / Sans-serif
 - Bootstrap
 - Google Fonts
 - MarkdownLint
-
-### Deployment
-
-The project is deployed using GitHub Pages.
-
-Steps:
-
-- Upload the project to a GitHub repository
-- Open the repository settings
-- Navigate to the "Pages" section
-- Select the main branch
-- Save and publish
 
 ---
 
