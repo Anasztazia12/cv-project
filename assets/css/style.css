@@ -6,6 +6,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body{
     background-image: url('../images/picture.png');
     background-size: cover;
@@ -38,15 +39,18 @@ body{
     border-radius: 12px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.863) 0%, rgba(143, 137, 137, 0.8) 100%);
 }
+
 h1 {
     margin: 0;
 } 
+
 h2 {
     color: rgb(17, 17, 17);
     margin-top: 0.2rem;
     display: block;
 	padding: 0.6rem 0.8rem;
 }
+
 .top-title {
     max-width: 760px;
     margin: 0 auto;
@@ -102,24 +106,29 @@ h2 {
     margin: 0 auto;
     padding: 0.5rem;
 }
+
 .education-columns {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     gap: 1rem;
 }
+
 .education-columns .subtitle h2 {
     min-height: 0;
 }
+
 .cv-layout ul {
     margin-top: 0.3rem;
     margin-bottom: 1rem;
     padding-left: 1.2rem;
 }
+
 .cv-layout li,
 .cv-layout p {
     line-height: 1.5;
 }
+
 /* About me */
 .info {
 	max-width: 760px;
@@ -132,11 +141,13 @@ h2 {
 	border-radius: 12px;
     background: linear-gradient(135deg, rgba(235, 231, 231, 0.966) 0%, rgba(235, 235, 240, 0.952) 100%);
 }
+
 h4 {
     margin: 0;
     padding-bottom: 0.6rem;
     text-align: center;
 }
+
 .welcome-line {
     margin: 0;
     padding-bottom: 0.6rem;
@@ -149,6 +160,7 @@ h3 {
     margin: 0.6rem 0;
     padding-bottom: 0.6rem;
 }
+
 .skills-list {
     list-style: disc;
     padding-left: 1.5rem;
@@ -160,16 +172,19 @@ h3 {
     max-width: 760px;
     border-radius: 12px;
 }
+
 .qualification-section {
     margin-bottom: 1rem;
     max-width: 760px;
     border-radius: 12px;
 }
+
 .education-columns .education-section,
 .education-columns .qualification-section {
     flex: 1 1 0;
     max-width: none;
 }
+
 .edu-list,
 .qual-list {
     display: flex;
@@ -184,6 +199,7 @@ h3 {
     font-size: larger;
     background: linear-gradient(135deg, rgba(235, 231, 231, 0.966) 0%, rgba(235, 235, 240, 0.952) 100%);
 }
+
 .edu-list > li,
 .qual-list > li {
     display: flex;
@@ -193,15 +209,18 @@ h3 {
     border-bottom: 1px solid #434344;
     transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
+
 .edu-year {
     min-width: 200px;
     font-weight: 800;
     color: rgb(7, 10, 143);
 }
+
 .edu-text {
     flex: 1;
     font-weight: 600;
 }
+
 .edu-list > li:hover,
 .qual-list > li:hover {
     transform: translateY(-4px);
@@ -211,6 +230,7 @@ h3 {
     border-radius: 6px;
     box-shadow: inset 0 0 0 1px rgba(123, 135, 154, 0.35);
 }
+
 /* Experience */
 .experience-grid {
     max-width: 760px;
@@ -218,6 +238,7 @@ h3 {
     flex-wrap: wrap;
     gap: 1rem;
 }
+
 .experience-item {
     flex: 1 1 320px;
     min-width: 0;
@@ -228,6 +249,7 @@ h3 {
     background: linear-gradient(135deg, rgba(235, 231, 231, 0.966) 0%, rgba(235, 235, 240, 0.952) 100%);
     transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
+
   .experience-item:hover {
     transform: translateY(-4px);
     background: linear-gradient(135deg, rgba(189, 191, 194, 0.925) 0%, rgba(232, 236, 243, 0.92) 100%);
@@ -257,28 +279,33 @@ h3 {
     border: 2px solid #434344;
     box-shadow: 0 8px 32px rgba(80,77,77,0.18);
 }
+
 #contactModal .modal-header, #contactModal .modal-footer {
     background: rgba(143,137,137,0.18);
     border-bottom: 1px solid #434344;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
+
 #contactModal .modal-title {
     color: #232323;
     font-family: 'Almendra SC', serif;
     font-size: 1.6rem;
 }
+
 #contactModal .modal-body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.1rem;
     color: #171718;
 
 }
+
 #contactModal .btn-secondary {
     background: linear-gradient(90deg, #b4b4b4 0%, #585656 100%);
     color: #fff;
     border: none;
 }
+
 #contactModal .btn-close {
     filter: none;
     opacity: 1;
@@ -295,6 +322,7 @@ h3 {
     color: #2a4d8f;
     font-size: 1.6rem;
 }
+
 #contactModal .btn-close::after {
     content: '×';
     font-size: 1.6rem;
@@ -305,9 +333,11 @@ h3 {
     width: 100%;
     text-align: center;
 }
+
 #contactModal .btn-close span {
     display: none;
 }
+
 #contactModal .btn-close:hover {
     background-color: #2a4d8f;
     border-color: #232323;
@@ -315,13 +345,16 @@ h3 {
     box-shadow: 0 6px 24px rgba(42,77,143,0.28);
     transform: scale(1.08);
 }
+
 #contactModal .btn-close:hover::after {
     color: #fff;
 }
+
 #contactModal .btn-close:focus {
     outline: 2px solid #2a4d8f;
     outline-offset: 2px;
 }
+
 #contactModal .btn-secondary:hover {
     color: blue;
 }
@@ -331,9 +364,11 @@ h3 {
     font-weight: 700;
     text-decoration: underline;
 }
+
 #contactModal .modal-body a:hover {
     color: #048079;
 }
+
 #contactModal .modal-body a:active {
     color: #af0404;
 }
@@ -429,14 +464,17 @@ h3 {
     #contactModal .modal-title {
         font-size: 1.2rem;
     }
+
     #contactModal .modal-body {
         font-size: 1rem;
         padding: 0.5rem 0.2rem;
     }
+
     #contactModal .modal-header, #contactModal .modal-footer {
         border-radius: 10px 10px 0 0;
         padding: 0.5rem 0.7rem;
     }
+    
     #contactModal .btn-secondary {
         font-size: 0.95rem;
         padding: 0.3rem 0.8rem;
