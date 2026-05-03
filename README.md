@@ -105,7 +105,7 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 #### Tested on
 
 - Desktop computer
-- Smartphine
+- Smartphone
 
 #### Screenshots
 
@@ -123,27 +123,20 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ![Mobile View 2](assets/images/mobile-view2.png)
 
-Testing was carried out manually on different devices and screen sizes.
+### Testing was carried out manually on different devices and screen sizes
 
 Tested elements:
 
 Navigation links
-
 Modal opening and closing
-
-![Modal](assets/images/modal.png)
-
-Responsive behaviour on mobile and tablet
-
-![Responsive Mockup](assets/images/responsive-mockup.png)
-
+Responsive behaviour on mobile, tablet and Ipad
 Image loading
-
 External links
-
 HTML and CSS validation
-
 Detailed results are included in the “Testing” and “Manual Testing Table” sections of this README.
+
+Modal opening:
+![Screenshot 3](assets/images/modal.png)
 
 ### e, Bugs & Fixes
 
