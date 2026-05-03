@@ -111,7 +111,7 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ![Screenshot 2](assets/images/screenshot2.png)
 
-![Screenshot 3](assets/images/screenshot3.png)
+![Screenshot 3](assets/images/modal.png)
 
 ![Screenshot 4](assets/images/screenshot4.png)
 
@@ -131,7 +131,7 @@ Navigation links
 
 Modal opening and closing
 
-![Modal](assets/images/screenshot3.png)
+![Modal](assets/images/modal.png)
 
 Responsive behaviour on mobile and tablet
 
@@ -340,6 +340,14 @@ Tested on: 08/April/2026
 
 ![HTML Validator 5](assets/images/html-validator5.png)
 
+ Tested on: 03/May/2026
+
+ ![HTML Validator 6](assets/images/html-validator6a.png)
+
+ ![HTML Validator 7](assets/images/html-validator7.png)
+
+ ![HTML Validator 8](assets/images/html-validator8.png)
+
 ### CSS Validator
 
 The CSS file was tested using the W3C CSS Validator.
@@ -353,9 +361,9 @@ Tested on: 08/April/2026
 
 ![CSS Validator 2](assets/images/css-validator2.png)
 
- Tested on: 03/05/2026
+ Tested on: 03/May/2026
 
- ![HTML Validator ](assets/images/html-validator6.png)
+![CSS Validator 3](assets/images/css-validator3.png)
 
 ---
 
