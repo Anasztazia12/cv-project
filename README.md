@@ -147,12 +147,13 @@ Detailed results are included in the “Testing” and “Manual Testing Table�
 
 ### e, Bugs & Fixes
 
-|                  Bug                |               Description              |              Fix             | Status |
-|-------------------------------------|----------------------------------------|------------------------------|--------|
-| Modal didn't close with ESC         | Missing Bootstrap behaviour            | Re‑checked Bootstrap JS      | Fixed  |
-| Large image file size               | Slow loading                           | Optimised and resized images | Fixed  |
-| Text spacing inconsistent           | Some sections too tight                | Adjusted padding and margins | Fixed  |
-| README table not displayed          | Broken Markdown pipes                  | Corrected table syntax       | Fixed  |
+|                  Bug                |                Description              |              Fix             | Status |
+|-------------------------------------|-----------------------------------------|------------------------------|--------|
+| Modal didn't close with ESC         | Missing Bootstrap behaviour             | Re‑checked Bootstrap JS      | Fixed  |
+| Large image file size               | Slow loading                            | Optimised and resized images | Fixed  |
+| Text spacing inconsistent           | Some sections too tight                 | Adjusted padding and margins | Fixed  |
+| README table not displayed          | Broken Markdown pipes                   | Corrected table syntax       | Fixed  |
+|W3C modal validation errors          | aria-labelledby, heading issues in modal| Added role + changed heading | Fixed  |
 
 Explanation:  
 During testing, several issues were identified. All major bugs were fixed and documented in the table above.
