@@ -147,15 +147,15 @@ Detailed results are included in the “Testing” and “Manual Testing Table�
 
 ### e, Bugs & Fixes
 
-During development and testing, several issues were identified and resolved:
+|                  Bug                |               Description              |              Fix             | Status |
+|-------------------------------------|----------------------------------------|------------------------------|--------|
+| Modal didn't close with ESC         | Missing Bootstrap behaviour            | Re‑checked Bootstrap JS      | Fixed  |
+| Large image file size               | Slow loading                           | Optimised and resized images | Fixed  |
+| Text spacing inconsistent           | Some sections too tight                | Adjusted padding and margins | Fixed  |
+| README table not displayed          | Broken Markdown pipes                  | Corrected table syntax       | Fixed  |
 
-|Bug|Description|Fix|Status|
-
----
-|Navigation wrapped on mobile|Menu items moved to two line|Added flex-wrap: nowrap in CSS|Fixed|
-|Modal didn't close with ESC|Missing Bootstrap behaviour|Re‑checked Bootstrap JS|Fixed|
-|Large image file size|Slow loading|Optimised and resized images|Fixed|
-|Text spacing inconsistent|Some sections too tight|Adjusted padding and margins|Fixed|
+Explanation:  
+During testing, several issues were identified. All major bugs were fixed and documented in the table above.
 
 ### 6.Deployment
 
