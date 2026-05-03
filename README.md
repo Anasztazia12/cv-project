@@ -32,7 +32,132 @@ The website provides value by offering visitors a quick and organised way to lea
 Potential employers or collaborators can easily navigate between pages, view my background, and assess my suitability for roles.
 The responsive design ensures that the CV is readable on desktop, tablet, and mobile devices.
 
-### Deployment
+---
+
+## Development Life Cycle
+
+### 1. Planning Phase
+
+At the beginning of the project, I defined the main goal: to create a clean, simple, and easy‑to‑navigate online CV.
+During the planning phase,
+
+ I collected all content (profile information, education, experience)
+
+ Decided on a three‑page structure (Home, Education, Experience)
+
+ Created user stories to understand user needs
+
+ identified the essential features (navigation, modal, responsive layout)
+
+The aim was to build a professional and accessible CV website that works well on all devices.
+
+### 2.Design Phase
+
+During the design stage, I made decisions about the visual style and layout:
+
+Colour palette: black, white, grey and blue with Bootstrap colorful buttons
+
+Typography: Almendra SC (Google Font) combined with system fonts
+
+Layout: Laptop‑first responsive design using Flexbox and media queries
+
+The design goal was clarity, readability, and a professional CV‑style appearance.
+
+### 3. Development Phase
+
+The development process used the following technologies:
+
+HTML5
+CSS3
+Flexbox
+Bootstrap
+Google Fonts
+Git & GitHub
+
+ Development steps:
+
+ Created the basic HTML structure for all three pages
+ Built the navigation menu and linked all pages
+ Added content sections (About, Education, Experience)
+ Implemented the Bootstrap Contact Modal
+ Styled the website using CSS and ensured responsive behaviour
+ Added and optimised images
+ Performed manual testing on multiple devices
+ Fixed layout and functionality issues
+ Deployed the project using GitHub Pages
+ The focus was on clean, semantic HTML and consistent styling.
+
+### 4. Testing Phase
+
+#### Testing
+
+The website was tested on multiple screen sizes to ensure responsiveness and usability.
+
+#### Manual Testing
+
+- Navigation buttons open the correct pages
+- Layout adapts correctly to smaller screens
+- Navigation buttons stay on one line on mobile as intended
+- GitHub lik opens in a new tab
+- Contact modal opens correctly when clicked
+- Contatc modal closes correctyl using the close button, outside click, ESC key, or X icon.
+
+#### Tested on
+
+- Desktop computer
+- Smartphine
+
+#### Screenshots
+
+![Screenshot 2](assets/images/screenshot2.png)
+
+![Screenshot 3](assets/images/screenshot3.png)
+
+![Screenshot 4](assets/images/screenshot4.png)
+
+![Mobile View](assets/images/screenshot6.png)
+
+![Mobile View](assets/images/screenshot1.png)
+
+![Mobile View 1](assets/images/mobile-view1.jpeg)
+
+![Mobile View 2](assets/images/mobile-view2.png)
+
+Testing was carried out manually on different devices and screen sizes.
+
+Tested elements:
+
+Navigation links
+
+Modal opening and closing
+
+![Modal](assets/images/screenshot3.png)
+
+Responsive behaviour on mobile and tablet
+
+![Responsive Mockup](assets/images/responsive-mockup.png)
+
+Image loading
+
+External links
+
+HTML and CSS validation
+
+Detailed results are included in the “Testing” and “Manual Testing Table” sections of this README.
+
+### 5.Bugs & Fixes
+
+During development and testing, several issues were identified and resolved:
+
+|Bug|Description|Fix|Status|
+
+---
+|Navigation wrapped on mobile|Menu items moved to two line|Added flex-wrap: nowrap in CSS|Fixed|
+|Modal didn't close with ESC|Missing Bootstrap behaviour|Re‑checked Bootstrap JS|Fixed|
+|Large image file size|Slow loading|Optimised and resized images|Fixed|
+|Text spacing inconsistent|Some sections too tight|Adjusted padding and margins|Fixed|
+
+### 6.Deployment
 
 The project is deployed using GitHub Pages.
 
@@ -162,40 +287,7 @@ This page highlights my previous work experience adn key responsibilities.
 
 Wireframes were planned before development to outline the layout and structure of each page.
 
-### Testing
-
-The website was tested on multiple screen sizes to ensure responsiveness and usability.
-
-### Manual Testing
-
-- Navigation buttons open the correct pages
-- Layout adapts correctly to smaller screens
-- Navigation buttons stay on one line on mobile as intended
-- GitHub lik opens in a new tab
-- Contact modal opens correctly when clicked
-- Contatc modal closes correctyl using the close button, outside click, ESC key, or X icon.
-
-### Tested on
-
-- Desktop computer
-- Smartphine
-
-### Screenshots
-
-![Screenshot 2](assets/images/screenshot2.png)
-
-![Screenshot 3](assets/images/screenshot3.png)
-
-![Screenshot 4](assets/images/screenshot4.png)
-
-![Mobile View](assets/images/screenshot6.png)
-
-![Mobile View](assets/images/screenshot1.png)
-
-![Mobile View 1](assets/images/mobile-view1.jpeg)
-
-![Mobile View 2](assets/images/mobile-view2.png)
-
+#
 ---
 
 ## 5. Surface Plane
