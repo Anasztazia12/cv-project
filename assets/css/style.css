@@ -8,7 +8,7 @@ html {
 }
 
 body{
-    background-image: url('../images/picture.png');
+    background-image: url('../images/background.png');
     background-size: cover;
     background-position: 98% top;
     background-attachment: fixed;

@@ -188,9 +188,9 @@ The website was tested on multiple screen sizes to ensure responsiveness and usa
 
 ![Mobile View](assets/images/screenshot1.png)
 
-![Mobile View 1](assets/images/mobile1.jpeg)
+![Mobile View 1](assets/images/mobile-view1.jpeg)
 
-![Mobile View 2](assets/images/mobile2.png)
+![Mobile View 2](assets/images/mobile-view2.png)
 
 ---
 
@@ -232,17 +232,17 @@ Tested using W3C HTML Validator — no errors found.
 
 Tested on: 23/March/2026
 
-![HTML Validator Screenshot 7](assets/images/html-validator1.png)
+![HTML Validator 1](assets/images/html-validator1.png)
 
-![HTML Validator Screenshot 8](assets/images/html-validator2.png)
+![HTML Validator 2](assets/images/html-validator2.png)
 
-![HTML Validator Screenshot 9](assets/images/html-validator3.png)
+![HTML Validator 3](assets/images/html-validator3.png)
 
-![HTML Validator Screenshot 10](assets/images/html-validator4.png)
+![HTML Validator 4](assets/images/html-validator4.png)
 
 Tested on: 08/April/2026
 
-![HTML Validator Screenshot 11](assets/images/html-validator5.png.png)
+![HTML Validator 5](assets/images/html-validator5.png)
 
 ### CSS Validator
 
@@ -251,15 +251,15 @@ Result: No errors found.
 
 Tested on: 23/March/2026
 
-![CSS Validator Screenshot 0](assets/images/screenshot0.png)
+![CSS Validator 1](assets/images/css-validator1.png)
 
 Tested on: 08/April/2026
 
-![HTML Validator Screenshot 12](assets/images/screenshot12.png)
+![CSS Validator 2](assets/images/css-validator2.png)
 
  Tested on: 03/05/2026
 
- ![HTML Validator Screenshot 12](assets/images/screenshot13.png)
+ ![HTML Validator ](assets/images/html-validator6.png)
 
 ---
 
