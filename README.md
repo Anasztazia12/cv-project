@@ -335,9 +335,15 @@ Tested on: 08/April/2026
 
  Tested on: 03/May/2026
 
+ index.html page (about me)
+
  ![HTML Validator 6](assets/images/html-validator6a.png)
 
+education.html page
+
  ![HTML Validator 7](assets/images/html-validator7.png)
+
+experience.html page
 
  ![HTML Validator 8](assets/images/html-validator8.png)
 
