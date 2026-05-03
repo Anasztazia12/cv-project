@@ -36,7 +36,7 @@ The responsive design ensures that the CV is readable on desktop, tablet, and mo
 
 ## Development Life Cycle
 
-### 1. Planning Phase
+### a, Planning Phase
 
 At the beginning of the project, I defined the main goal: to create a clean, simple, and easy‑to‑navigate online CV.
 During the planning phase,
@@ -51,7 +51,7 @@ During the planning phase,
 
 The aim was to build a professional and accessible CV website that works well on all devices.
 
-### 2.Design Phase
+### b, Design Phase
 
 During the design stage, I made decisions about the visual style and layout:
 
@@ -63,7 +63,7 @@ Layout: Laptop‑first responsive design using Flexbox and media queries
 
 The design goal was clarity, readability, and a professional CV‑style appearance.
 
-### 3. Development Phase
+### c, Development Phase
 
 The development process used the following technologies:
 
@@ -87,7 +87,7 @@ Git & GitHub
  Deployed the project using GitHub Pages
  The focus was on clean, semantic HTML and consistent styling.
 
-### 4. Testing Phase
+### d, Testing Phase
 
 #### Testing
 
@@ -145,7 +145,7 @@ HTML and CSS validation
 
 Detailed results are included in the “Testing” and “Manual Testing Table” sections of this README.
 
-### 5.Bugs & Fixes
+### e, Bugs & Fixes
 
 During development and testing, several issues were identified and resolved:
 
@@ -287,7 +287,6 @@ This page highlights my previous work experience adn key responsibilities.
 
 Wireframes were planned before development to outline the layout and structure of each page.
 
-#
 ---
 
 ## 5. Surface Plane
