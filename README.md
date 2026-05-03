@@ -2,6 +2,10 @@
 
 **GitHub Repository:** [https://github.com/Anasztazia12/cv-project/](https://github.com/Anasztazia12/cv-project/)
 
+Responsive Mockup picture
+
+![Responsive Mockup](assets/images/responsive-mockup.png)
+
 ## 1. Strategy Plane
 
 ## Project Overview
