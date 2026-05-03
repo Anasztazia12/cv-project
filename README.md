@@ -232,17 +232,17 @@ Tested using W3C HTML Validator — no errors found.
 
 Tested on: 23/March/2026
 
-![HTML Validator Screenshot 7](assets/images/screenshot7.png)
+![HTML Validator Screenshot 7](assets/images/html-validator1.png)
 
-![HTML Validator Screenshot 8](assets/images/screenshot8.png)
+![HTML Validator Screenshot 8](assets/images/html-validator2.png)
 
-![HTML Validator Screenshot 9](assets/images/screenshot9.png)
+![HTML Validator Screenshot 9](assets/images/html-validator3.png)
 
-![HTML Validator Screenshot 10](assets/images/screenshot10.png)
+![HTML Validator Screenshot 10](assets/images/html-validator4.png)
 
 Tested on: 08/April/2026
 
-![HTML Validator Screenshot 11](assets/images/screenshot11.png)
+![HTML Validator Screenshot 11](assets/images/html-validator5.png.png)
 
 ### CSS Validator
 
@@ -256,6 +256,10 @@ Tested on: 23/March/2026
 Tested on: 08/April/2026
 
 ![HTML Validator Screenshot 12](assets/images/screenshot12.png)
+
+ Tested on: 03/05/2026
+
+ ![HTML Validator Screenshot 12](assets/images/screenshot13.png)
 
 ---
 
