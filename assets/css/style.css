@@ -233,6 +233,15 @@ h3 {
     box-shadow: inset 0 0 0 1px rgba(123, 135, 154, 0.35);
 }
 
+/* Project icons */
+.project-icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin: 0 auto 0.7rem;
+}
+
 /* Experience */
 .experience-grid {
     max-width: 760px;
