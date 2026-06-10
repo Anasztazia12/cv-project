@@ -149,6 +149,7 @@ h4 {
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
+    font-size: 1.15rem;
 }
 
 .welcome-line {
@@ -502,6 +503,12 @@ h3 {
 
     h3 {
         font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-size: 1.2rem !important;
+        font-weight: bold !important;
     }
 
     .cv-download-wrap {
