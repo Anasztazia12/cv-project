@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:cv-project.amethyst-nexalune.co.uk)",
+      "WebFetch(domain:card-maker.amethyst-nexalune.co.uk)",
+      "Bash(command -v chromium-cli)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(node screenshot.js \"c:\\\\Users\\\\rkara\\\\OneDrive\\\\Asztali gép\\\\cv project\\\\projects.html\" featured.png)"
+    ]
+  }
+}
