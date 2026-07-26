@@ -419,8 +419,24 @@ h3 {
 
 .project-card-body {
     display: grid;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto auto;
     gap: 12px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tech-tags span {
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: rgba(8, 45, 114, 0.08);
+    color: var(--accent);
+    font-size: 0.72rem;
+    font-weight: 700;
+    border: 1px solid rgba(8, 45, 114, 0.18);
 }
 
 .project-card-body h3 {
