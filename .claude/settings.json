@@ -7,7 +7,8 @@
       "Bash(npm init *)",
       "Bash(npm install *)",
       "Bash(npx playwright *)",
-      "Bash(node screenshot.js \"c:\\\\Users\\\\rkara\\\\OneDrive\\\\Asztali gép\\\\cv project\\\\projects.html\" featured.png)"
+      "Bash(node screenshot.js \"c:\\\\Users\\\\rkara\\\\OneDrive\\\\Asztali gép\\\\cv project\\\\projects.html\" featured.png)",
+      "Bash(node full.js \"c:\\\\Users\\\\rkara\\\\OneDrive\\\\Asztali gép\\\\cv project\\\\projects.html\" full.png)"
     ]
   }
 }
